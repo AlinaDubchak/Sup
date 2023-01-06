@@ -6,6 +6,6 @@
 
 <center>
 
-![](../../images/port.jpg )
+![](../../images/port.png )
 
 </center>
