@@ -28,12 +28,12 @@ const AddNewProject = (req, res) => {
         if (err) return res.status(500).json(err);
         if (result.length !== 0) return res.status(406).json('There is already project with this team');
   const query = "INSERT INTO project SET ?";
-  const user = {
+  const project = {
     name,
     team,
     task_id: task_id || 1,
   };
-  connection.query(query, user, (err) => {
+  connection.query(query, project, (err) => {
     if (err) return res.status(500).json(err);
     res.status(201).json({ message: "New project created" });
   });
