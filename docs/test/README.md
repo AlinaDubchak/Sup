@@ -4,5 +4,8 @@
 
 # Підключення до серверу
 
-![1](../../images/port.jpg )
+<center>
 
+![](../../images/port.jpg )
+
+</center>
